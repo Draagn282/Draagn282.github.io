@@ -1,0 +1,30 @@
+kleuren
+
+hoofdkleur: #222222
+bij kleur: #2e2e2e
+zij kleur: black
+primaire kleur: crimson / #DC143C
+secundaire kleur: imperial red / #ed2939
+tertiaire kleur: #cd1121
+
+text color: white
+family:
+font-family: 'Nunito', sans-serif;
+font-family: 'Open Sans Condensed', 
+sans-serif;
+text secundaire: edece7
+
+icons <span class="material-icons-outlined">
+email
+</span>
+
+
+
+paginas
+
+index
+-samenvatting
+-links naar alle paginas
+videos
+inforamtie
+
