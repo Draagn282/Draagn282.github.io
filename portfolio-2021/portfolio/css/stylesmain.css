@@ -32,9 +32,10 @@
 ::-webkit-scrollbar-thumb {
   background-color: var(--crimson);
   border-radius: 8px;
+  transition: 0.2s;
 }
 ::-webkit-scrollbar-thumb:hover {
-  background-color: var(--darkred);
+  background-color: white;
 }
 
 body {
