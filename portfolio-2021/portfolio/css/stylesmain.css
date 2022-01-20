@@ -380,6 +380,57 @@ body {
   border: radius 2px;
 }
 
+.base_info_form_div {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  align-content: flex-start;
+}
+
+.base_info_input1[type="text"] {
+  background-color: var(--lightgrey);
+  color: white;
+  font-size: 15px;
+  border: none;
+  border-bottom: 2px solid crimson;
+}
+
+.base_info_input1[type="text"]:focus {
+  border: 3px solid crimson;
+  background-color: var(--darkred);
+}
+
+.base_info_input2[type="text"],
+textarea {
+  background-color: var(--lightgrey);
+  color: white;
+  font-size: 15px;
+  border: none;
+  border-bottom: 2px solid crimson;
+  resize: none;
+}
+.base_info_input2[type="text"],
+textarea:focus {
+  border: 3px solid crimson;
+  background-color: var(--darkred);
+}
+
+.base_info_input3 {
+  width: 200px;
+  height: 50px;
+  border-radius: 18px;
+  border: none;
+  background-color: rgb(3, 38, 133);
+  transition: 0.3s;
+}
+.base_info_input3:hover {
+  background-color: lightblue;
+  cursor: pointer;
+}
 /* projects home */
 
 .base_main_div_projects {
