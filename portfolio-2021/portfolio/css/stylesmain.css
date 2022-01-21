@@ -709,14 +709,14 @@ textarea:focus {
 
 .base_clips_button:hover {
   cursor: pointer;
-  background-color: white;
+  background-color: transparent;
   border: solid rgb(1, 158, 1);
   color: black;
 }
 
 .base_clips_button2:hover {
   cursor: pointer;
-  background-color: white;
+  background-color: transparent;
   border: solid rgb(2, 137, 190);
   color: black;
 }
@@ -1281,6 +1281,10 @@ textarea:focus {
   }
   .base_main_div_clips {
     height: 700px;
+  }
+
+  .base_info_pic_div img {
+    width: 500px;
   }
 }
 
