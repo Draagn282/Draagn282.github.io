@@ -235,6 +235,8 @@ a {
   font-family: "Roboto", sans-serif;
   padding-top: 20px;
   padding-bottom: 30px;
+  font-size: 13px;
+  font-weight: 900;
 }
 
 .footer_jumpto_div {
@@ -1196,7 +1198,7 @@ textarea:focus {
 }
 @media only screen and (max-width: 768px) {
   .typing {
-    font-size: 130px;
+    font-size: 110px;
   }
 
   .base_clips_div_lvl3 {
@@ -1284,7 +1286,10 @@ textarea:focus {
   }
 
   .base_info_pic_div img {
-    width: 500px;
+    width: 100%;
+  }
+  .base_info_pic_div {
+    width: 100%;
   }
 }
 
